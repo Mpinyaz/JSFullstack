@@ -80,3 +80,4 @@ dist-ssr
 *.sln
 *.sw?
 frontend/src/routeTree.gen.ts
+backend/src/database/migrations

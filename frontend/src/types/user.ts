@@ -1,8 +1,10 @@
 export interface User {
   id: string;
   name: string;
+  dob?: Date;
   lastname: string;
-  password: string;
+  email: string;
+  age?: number;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -10,4 +12,6 @@ export interface User {
 export interface UserFormData {
   name: string;
   lastname: string;
+  dob?: Date;
+  email: string;
 }
